@@ -36,3 +36,14 @@ Download zip file or all files in ```/dist```
 </body>
 </html>
 ```
+
+#### Up and Running
+
+Requires Vagrant https://www.vagrantup.com/
+
+```bash
+cd /path/to/ediblecontent
+vagrant up
+```
+
+Visit localhost:8181 in your browser.
