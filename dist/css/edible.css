@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box; }
+
+.rich-container .rich-controls {
+  margin-bottom: .5em; }
+  .rich-container .rich-controls button {
+    display: inline-block;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-right: .2em;
+    margin-bottom: .2em; }
+    .rich-container .rich-controls button:nth-child(1) {
+      font-weight: bold; }
+    .rich-container .rich-controls button:nth-child(2) {
+      font-style: italic; }
+.rich-container .rich-editor {
+  width: 100%;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  color: #555;
+  font-size: 14px;
+  padding: 4px 6px;
+  min-height: 8em; }
+  .rich-container .rich-editor.invalid {
+    border-color: red !important;
+    box-shadow: 0 0 3px 0 red; }
+  .rich-container .rich-editor ul {
+    list-style-type: disc;
+    margin: .5em 1em; }
+  .rich-container .rich-editor ol {
+    list-style-type: decimal;
+    margin: .5em 1em;
+    padding: 0; }
+    .rich-container .rich-editor ol li {
+      margin: 0;
+      padding: 0; }
