@@ -37,9 +37,9 @@ Download zip file or all files in ```/dist```
 </html>
 ```
 
-#### Up and Running
+## Up and Running
 
-Requires Vagrant https://www.vagrantup.com/
+Use Vagrant https://www.vagrantup.com/
 
 ```bash
 cd /path/to/ediblecontent
@@ -47,3 +47,18 @@ vagrant up
 ```
 
 Visit localhost:8181 in your browser.
+
+### or
+
+Serve up the dist directory however you'd like.
+
+## Build
+
+```
+git clone
+cd /path/to/ediblecontent
+npm install
+gulp
+```
+
+Make changes to files in src.
